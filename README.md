@@ -88,6 +88,8 @@ C'est le cœur du système de suivi. À chaque fois qu'un `/event` est créé, u
    - L'event disparaît du tableau de bord public. 
    - *(Note : L'event continue de compter dans l'historique pour l'affichage de la commande `/groupes`).*
 
+   <img width="308" height="137" alt="image" src="https://github.com/user-attachments/assets/7392be08-4e4c-49a6-8311-8ca85f19e910" />
+
 2. **✏️ Éditer :** 
    - Ouvre une petite fenêtre pop-up (Modal) sur l'écran de l'utilisateur pour modifier la Date ou l'Heure en quelques secondes. 
    - Toutes les interfaces (bloc et tableau de bord) s'actualisent instantanément.
