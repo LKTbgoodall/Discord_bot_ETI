@@ -31,12 +31,11 @@ Ces commandes sont essentielles pour configurer le bot sur le serveur.
 - **Utilité :** Crée le tableau de bord "Public". 
 - **Fonctionnement :** Envoie un message incrusté (Embed) dans le salon actuel qui listera automatiquement tous les events à venir (Aujourd'hui & Demain). Ce message sera actualisé dynamiquement dès qu'un event est créé, modifié, validé ou supprimé.
 
-<img width="447" height="283" alt="image" src="https://github.com/user-attachments/assets/8a02c19b-e5f5-412b-ba4b-24b728fde38b" />
-
-
 ### `/setup_gestion`
 - **Utilité :** Définit le salon "Panneau de Contrôle".
 - **Fonctionnement :** Désigne le salon actuel comme l'endroit où atterriront tous les "blocs individuels" et interactifs des events.
+
+<img width="447" height="283" alt="image" src="https://github.com/user-attachments/assets/8a02c19b-e5f5-412b-ba4b-24b728fde38b" />
 
 ### `/scan`
 - **Utilité :** Enregistre un Groupe.
