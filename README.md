@@ -31,15 +31,21 @@ Ces commandes sont essentielles pour configurer le bot sur le serveur.
 - **Utilité :** Crée le tableau de bord "Public". 
 - **Fonctionnement :** Envoie un message incrusté (Embed) dans le salon actuel qui listera automatiquement tous les events à venir (Aujourd'hui & Demain). Ce message sera actualisé dynamiquement dès qu'un event est créé, modifié, validé ou supprimé.
 
+<img width="447" height="283" alt="image" src="https://github.com/user-attachments/assets/8a02c19b-e5f5-412b-ba4b-24b728fde38b" />
+
 ### `/setup_gestion`
 - **Utilité :** Définit le salon "Panneau de Contrôle".
 - **Fonctionnement :** Désigne le salon actuel comme l'endroit où atterriront tous les "blocs individuels" et interactifs des events.
 
-<img width="447" height="283" alt="image" src="https://github.com/user-attachments/assets/8a02c19b-e5f5-412b-ba4b-24b728fde38b" />
+<img width="482" height="227" alt="image" src="https://github.com/user-attachments/assets/7d3990a2-ca60-4b26-965d-b249da9e9086" />
+
 
 ### `/scan`
 - **Utilité :** Enregistre un Groupe.
 - **Fonctionnement :** À taper dans un des salons d'une catégorie. Le bot va aspirer le nom de la catégorie ainsi que le nom de tous les autres salons situés dedans (vos différent gangs) pour les mémoriser. C'est nécessaire pour le suivi via `/groupes`.
+
+<img width="285" height="231" alt="image" src="https://github.com/user-attachments/assets/27ed6618-3339-48fb-b71b-aaab6b8244fc" />
+
 
 ### `/clear`
 - **Utilité :** Remise à zéro.
@@ -56,8 +62,7 @@ Ces commandes sont essentielles pour configurer le bot sur le serveur.
   2. L'event s'ajoute dynamiquement sur le **tableau de bord public**. Le créateur est automatiquement listé comme participant.
   3. Un **bloc interactif** est envoyé dans le salon de gestion privé (défini par `/setup_gestion`).
 
-<img width="352" height="353" alt="image" src="https://github.com/user-attachments/assets/db5af5c8-604c-4185-a25e-01157f86b36f" />
-
+<img width="568" height="105" alt="image" src="https://github.com/user-attachments/assets/3062b852-c6ae-418b-9652-e13c69b78ad7" />
 
 ### `/groupes [mois] [année]`
 - **Utilité :** Suivi de l'activité des Groupes.
@@ -65,6 +70,8 @@ Ces commandes sont essentielles pour configurer le bot sur le serveur.
   - `0 event` = ❌
   - `1 event` = ✅
   - `2 events` = ✅✅ (et ainsi de suite).
+
+<img width="352" height="353" alt="image" src="https://github.com/user-attachments/assets/db5af5c8-604c-4185-a25e-01157f86b36f" />
 
 ---
 
