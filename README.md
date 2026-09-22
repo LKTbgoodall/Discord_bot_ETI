@@ -9,14 +9,14 @@ Ce document rassemble l'intégralité du fonctionnement, des systèmes et des co
 Le bot n'utilise pas les permissions natives de Discord pour bloquer l'apparition des commandes. À la place, il intègre un système robuste basé sur la **hiérarchie des rôles Discord** et une logique de vérification en interne.
 
 - **Le Master (Accès Total) :** 
-  - L'utilisateur ayant l'ID `727770618090487808` peut exécuter **absolument toutes les commandes** et cliquer sur n'importe quel bouton, quels que soient ses rôles.
+  - L'utilisateur ayant l'ID `727770618090487808` (\_LKT_) peut exécuter **absolument toutes les commandes** et cliquer sur n'importe quel bouton, quels que soient ses rôles.
   
 - **Le Niveau Administrateur :** 
-  - Réservé au rôle ID `1327007554659946527` **ET** à tous les rôles situés *au-dessus* de lui dans la hiérarchie du serveur. 
+  - Réservé au rôle ID `1327007554659946527` (Manager ETI) **ET** à tous les rôles situés *au-dessus* de lui dans la hiérarchie du serveur. 
   - Donne accès aux commandes de configuration (Setup, Scan, Clear).
 
 - **Le Niveau Utilisateur :** 
-  - Réservé au rôle ID `1360409289382166699` **ET** à tous les rôles situés *au-dessus* de lui.
+  - Réservé au rôle ID `1360409289382166699` (Référent ETI) **ET** à tous les rôles situés *au-dessus* de lui.
   - Donne accès aux commandes du quotidien (Event, Groupes) ainsi qu'à la permission de cliquer sur les boutons de gestion.
 
 *Note : Si un membre clique sur un bouton ou lance une commande sans avoir la permission requise, le bot refusera silencieusement l'action.*
